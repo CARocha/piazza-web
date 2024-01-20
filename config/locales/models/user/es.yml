@@ -1,9 +1,18 @@
 es:
-    activerecord:
+  activerecord:
+    models:
+      user: Persona
+    attributes:
+      user:
+        name: Nombre
+        email: Correo electrónico
+        password: Contraseña
+
+es:
+  activerecord:
+    errors:
       models:
-        user: Persona
-      attributes:
         user:
-          name: Nombre
-          email: Correo electrónico
-          password: Contraseña
+          attributes:
+            password:
+              too_short: "debe ser al menos de 8 caracteres de largo"
