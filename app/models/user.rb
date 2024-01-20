@@ -10,8 +10,9 @@ class User < ApplicationRecord
   validates :password, presence: true, length: { minimum: 8, maximum: ActiveModel::SecurePassword::MAX_PASSWORD_LENGTH_ALLOWED }
 
   private
-    def strip_extraneous_spaces
-      self.name = self.name&.strip unless self.name.nil?
-      self.email = self.email&.strip unless self.email.nil?
-    end
+
+  def strip_extraneous_spaces
+    self.name = self.name&.strip unless self.name.nil?
+    self.email = self.email&.strip unless self.email.nil?
+  end
 end
