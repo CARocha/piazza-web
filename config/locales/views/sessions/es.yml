@@ -1,0 +1,8 @@
+es:
+  sessions:
+    new:
+      title: Iniciar con
+      submit: Entrar
+    create:
+      success: ¡Ya has iniciado sesión!
+      incorrect_details: El correo electrónico o la contraseña son incorrectas. Inténtalo de nuevo
