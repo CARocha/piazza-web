@@ -1,2 +1,9 @@
 es:
-  title: "Usuarios"
+  users:
+    new:
+      title: Registrate en piazza
+      sign_up: Registrate!
+    create:
+      welcome: "Bienvenido a piazza! %{name}."
+      success: "Bienvenido a piazza! Te has registrado exitosamente."
+      failure: "Lo sentimos, hubo un problema al registrarse."

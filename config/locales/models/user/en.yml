@@ -10,3 +10,17 @@ en:
         remember_me: Remember me
         created_at: Created at
         updated_at: Updated at
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "can't be blank"
+              taken: "has already been taken"
+              invalid: "is invalid"
+            password:
+              blank: "can't be blank"
+              too_short: "must be at least 8 characters long)"
+            password_confirmation:
+              blank: "can't be blank"
+              confirmation: "doesn't match Password"
