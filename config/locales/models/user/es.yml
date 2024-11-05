@@ -10,3 +10,17 @@ es:
         remember_me: Recordame
         created_at: Creado en
         updated_at: Actualizado en
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "no puede estar en blanco"
+              taken: "ya está en uso"
+              invalid: "no es válido"
+            password:
+              blank: "no puede estar en blanco"
+              too_short: "debe tener al menos 8 caracteres"
+            password_confirmation:
+              blank: "no puede estar en blanco"
+              confirmation: "no coincide con la contraseña"
